@@ -2,7 +2,7 @@
 
 ## env
 #### You must fill the following variables in your .env file:
-- SERVERURL
+- GCP_PROJECT_ID
 
 ## How to use
 <details>

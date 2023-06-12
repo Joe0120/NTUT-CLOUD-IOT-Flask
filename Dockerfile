@@ -3,7 +3,6 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get install -y \
     python3 \
     python3-pip 
-RUN export GOOGLE_APPLICATION_CREDENTIALS="gcp_auth.json"
 
 COPY . /app
 WORKDIR /app 
